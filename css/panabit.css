@@ -15,8 +15,8 @@ img{
 .navbar-default{
   background: rgba(0,0,0,0);
 }
-.navbar-default .navbar-nav>li>a{
-  color: #fff;
+.navbar-default .navbar-nav>li>a,.navbar-default .navbar-nav>li>a:focus{
+  color: #ddd;
 }
 .swiper-pagination-bullets .swiper-pagination-bullet {
   width: 50px;
@@ -59,6 +59,7 @@ img{
 .main .product>div {
   height: 120px;
   background: url(../img/panabit-content-bg.jpg) 100% 100%;
+  background-size: cover;
 }
 .main .product>div>div {
   padding-top: 20px;

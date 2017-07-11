@@ -17,12 +17,17 @@ nav:nth-child(2) {
   margin-bottom: 0px;
   border-bottom: 0px;
 }
+
 .navbar-default:nth-child(1) .navbar-nav>li>a:hover {
-  color: #000;
+  color: #fff;
 }
 .navbar-default:nth-child(2) .navbar-nav>li>a:hover {
   color: #ea042b;
 }
+.navbar-default .navbar-right>a:focus {
+  color: #fff;
+}
+
 .header-top{
   margin-top: 26px;
 }
