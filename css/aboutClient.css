@@ -1,5 +1,6 @@
 .main .content1{
   background: url(../img/client-banner.jpg) 100% 100%;
+  background-size: cover ;
 }
 .main li {
   list-style: none;

@@ -115,14 +115,28 @@ input, select, img {
 button{
   outline:none !important;
 }
-.btn-sm{
+.btn-pink{
   background: rgba(0,0,0,0);
   border-color: rgba(255,255,255,0.2);
   /*border-color: #ea042b;*/
   color: #fff;
   font-size: 15px;
 }
-.btn-sm:hover{
+.btn-pink:hover,
+.btn-pink:focus{
+  background: #ea042b;
+  border-color: rgba(255,255,255,0.2);
+  color: #fff;
+}
+.btn-red{
+  background: rgba(0,0,0,0);
+  border-color: rgba(255,255,255,0.2);
+  border-color: #ea042b;
+  color: #ea042b;
+  font-size: 15px;
+}
+.btn-red:hover,
+.btn-red:focus{
   background: #ea042b;
   border-color: rgba(255,255,255,0.2);
   color: #fff;

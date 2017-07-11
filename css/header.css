@@ -19,12 +19,17 @@ nav:nth-child(2) {
 }
 
 .navbar-default:nth-child(1) .navbar-nav>li>a:hover {
-  color: #fff;
+  color: #000;
 }
 .navbar-default:nth-child(2) .navbar-nav>li>a:hover {
-  color: #ea042b;
+  color: #333;
 }
-.navbar-default .navbar-right>a:focus {
+
+.navbar-index .navbar-nav>li>a,.navbar-index .navbar-nav>li>a:focus{
+  color: #ddd;
+}
+
+.navbar-index:nth-child(1) .navbar-nav>li>a:hover {
   color: #fff;
 }
 
