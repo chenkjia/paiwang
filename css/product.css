@@ -1,0 +1,21 @@
+.main li{
+  list-style: none;
+}
+.main h1{
+  font-size: 48px;
+  text-align: center;
+}
+.main .product-title, .main .product-other-title{
+  font-size: 36px;
+  text-align: center;
+  color: #0d0509;
+}
+
+.main .product-other-title {
+  color: #fff;
+}
+.main .bottom-promote h1 {
+  font-size: 24px;
+}
+  
+/*.main .product-content-subtitle{}*/

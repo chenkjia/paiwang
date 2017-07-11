@@ -1,0 +1,120 @@
+/*header*/
+img{
+  width: 100%;
+} 
+.main section ul li {
+  list-style: none;
+}
+.main section a {
+  color: #333;
+}
+/*将导航栏改成固定在div上面*/
+.navbar-fixed-top {
+  position: absolute;
+}
+.navbar-default{
+  background: rgba(0,0,0,0);
+}
+.navbar-default .navbar-nav>li>a{
+  color: #fff;
+}
+.swiper-pagination-bullets .swiper-pagination-bullet {
+  width: 50px;
+  height: 5px;
+  border-radius: 0;
+  background: #fff;
+  opacity: .9;
+  cursor: pointer;
+}
+.swiper-pagination-bullets .swiper-pagination-bullet-active {
+  width: 50px;
+  height: 5px;
+  border-radius: 0;
+  background: #6ba4f3;
+  /*opacity: .2;*/
+}
+/*banner*/
+.banner-title {
+  width: 520px;
+  height: 175px;
+  margin: 178px 0 0px 157px;
+  position: absolute;
+  /*left: 157px;*/
+  top: 0px;
+  color: #fff;
+}
+.banner-title p,.main .product>div>div p {
+  color: #fff;
+}
+.banner-title h1 {
+  font-size: 48px;
+}
+.banner-title p {
+  width: 310px;
+  margin-top: 20px;
+  line-height: 30px;
+}
+
+/*product*/
+.main .product>div {
+  height: 120px;
+  background: url(../img/panabit-content-bg.jpg) 100% 100%;
+}
+.main .product>div>div {
+  padding-top: 20px;
+  line-height: 120px;
+}
+
+.main section>div>div p{
+  text-align: center;
+}
+
+/*case*/
+.main .case {
+  padding: 65px 80px;
+}
+
+.main .case .content-title, .news .content-title {
+  text-align: left;
+}
+.main .case li a {
+  color: #333;
+}
+.main .case li a:hover{
+  color: #d21229;
+  text-decoration: underline;
+  cursor: pointer;
+}
+/*
+.main .case-nav {
+  padding: 20px 0;
+}
+*/
+.main .case-content{
+  padding: 45px 0;
+}
+.main .case-content>div img {
+  height: 160px;
+}
+/*news*/
+
+.main .news {
+  padding: 70px;
+  background: #d3d3d3;
+}
+.main .news>div>div>ul li {
+  margin: 10px 0;
+}
+
+.main .news ul li:nth-child(odd){
+  overflow: hidden;white-space: nowrap;text-overflow: ellipsis;
+}
+
+.main .img-containers {
+  text-align: center;
+}
+.main .news img {
+  width: 50%;
+  vertical-align:middle;
+}
+

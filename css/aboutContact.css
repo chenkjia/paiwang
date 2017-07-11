@@ -1,0 +1,22 @@
+.main .content1,.content2 {
+  padding-top: 88px;
+}
+.main .content-row {
+  padding:70px 0;
+}
+.main ul li {
+  line-height: 35px;
+}
+.main .content3 ul {
+  margin: 0;
+}
+.main .content3 ul li {
+  padding: 0;
+  margin-bottom: 50px;
+}
+.main .content3 ul .col-md-8{
+  list-style: none;
+}
+.main .content3{
+  padding-bottom: 150px;
+}

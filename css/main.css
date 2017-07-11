@@ -1,0 +1,100 @@
+/*main-common*/
+.outer-section {width:100%; float: left; clear: both;}
+.outer-wrapper {width:100%; max-width: 1440px; margin: 0 auto;}
+.main{
+  overflow: hidden;
+}
+.content1{
+  height: 500px !important;
+}
+.main .content1_banner{
+  line-height: 500px;
+  font-size: 48px;
+  text-align: center;
+}
+/*.main section:nth-last-child(1) {
+  padding-bottom: 150px;
+}*/
+.content-title{
+  color: #333;
+  font-size: 30px;
+  text-align: center;
+}
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+section {
+  background: #f4f4f4;
+}
+section h5 {
+  font-size: 24px;
+  text-align: center;
+}
+section p,li {
+  font-size: 18px;
+  line-height: 35px;
+}
+section h5,p,li {
+  color: #585858;
+}
+
+/*bottom-promote*/
+.main .bottom-promote {
+  padding: 20px 0;
+  /*height: 125px;*/
+  background: url(../img/bottom.jpg);
+  text-align: center;
+  color: #fff;
+  font-size: 24px;
+}
+.main .bottom-promote h1 {
+  padding: 10px;
+}
+.main .bottom-promote button {
+  font-size: 16px;
+  width: 100px;
+  height: 27px;
+  border: 1px solid #fff;
+  background: rgba(0,0,0,0);
+}
+
+
+/*content-nav*/
+.main .content-nav{
+  padding:40px 250px;
+}
+.main .content-nav li {
+  color: #333;
+  text-align: center;
+  cursor: pointer;
+}
+.main .content-nav li:hover {
+  color: red;
+  /*text-decoration: underline;*/
+  border-bottom: 1px solid red;
+  /*transition: all 0.5s;*/
+}
+
+.main .content-container {
+  margin-top: 80px;
+}
+
+/*case*/
+.main .case {
+  padding: 65px 80px;
+}
+.main .case li a {
+  color: #333;
+}
+.main .case li a:hover{
+  color: #d21229;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.main .case-content{
+  padding: 45px 0;
+}
+.main .case-content>div img {
+  height: 160px;
+}

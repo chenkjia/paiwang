@@ -1,0 +1,25 @@
+.main .content1 {
+  background: url(../img/new-banner.jpg);
+  background-size: cover;
+}
+.main .content2 {
+  padding: 50px 115px 150px 130px;
+}
+.main .content2 li {
+  list-style: none;
+}
+.main .content2>p {
+  margin-bottom:90px;
+}
+.main .content2 .row {
+  padding: 90px 0 0px;
+}
+.main .content2 .news-title{
+  margin-bottom: 50px;
+}
+/*.enterprise li {
+  width: 230px;
+  height: 80px;
+  padding: 10px;
+  background: url(../img/enterprise-icon.png) center;
+}*/

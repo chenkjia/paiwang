@@ -1,0 +1,9 @@
+.main .content1{
+  background: url(../img/client-banner.jpg) 100% 100%;
+}
+.main li {
+  list-style: none;
+}
+.main section:nth-last-child(1) {
+  padding-bottom: 150px;
+}
