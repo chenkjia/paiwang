@@ -12,7 +12,7 @@
 .content-buy .buy-content{
   height: 100%;
   text-align: center;
-  line-height: 750px;
+  line-height: 760px;
   position: relative;
 }
 .content-buy .buy-content img {
@@ -26,7 +26,7 @@
   background: #26398c;
 }
 .content-buy .bottom{
-  margin-right: 0px; 
+  margin-right: -90px; 
   margin-left: 0px;
 }
 .content-buy .buy-bottom{
@@ -41,4 +41,16 @@
 }
 .content-buy .buy-bottom:nth-child(2){
   background: #1e2e70;
+}
+
+.content5 li{
+  padding: 80px 0;
+  text-align: center;
+}
+.content5 .content-title {
+  padding: 35px 0;
+}
+
+.content5 li img{
+  width: 30%;
 }
