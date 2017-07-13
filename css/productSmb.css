@@ -54,3 +54,7 @@
 .content5 li img{
   width: 30%;
 }
+.content5 .content-text{
+  padding: 80px;
+  text-align: left;
+}
