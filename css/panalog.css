@@ -19,6 +19,7 @@
 
 .main .content2{
   padding-top: 250px;
+  padding-bottom: 100px;
   /*height: 735px;*/
 }
 .product-img{
@@ -26,4 +27,34 @@
 }
 .main .content-bottom {
   padding-top: 300px;
+}
+
+.main .content3 {
+  height: 820px;
+  background: url(../img/panalog-bg1.jpg);
+  background-size: cover;
+}
+.main .content4 {
+  height: 767px;
+  background: url(../img/panalog-bg2.jpg);
+  background-size: cover;
+}
+.content4 .content-title{
+  margin:0;
+}
+
+.main .content5 {
+  /*height: 500px;*/
+  background: url(../img/panalog-bg3.jpg);
+  background-size: cover;
+}
+.main .content5 h1 {
+  color: #fff;
+}
+
+.main .content5 ul{
+  padding-top: 47%;
+}
+.main .content5 ul li {
+  color: #fff;
 }
