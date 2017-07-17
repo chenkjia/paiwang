@@ -1,0 +1,29 @@
+.main .content1{
+  background: url(../img/panalog-banner.jpg);
+  background-size: cover;
+}
+
+.main .content1>div {
+  padding-top: 235px;
+}
+.main .content2 .content-title{
+  font-size: 32px;
+}
+.main .product-content-title, .main .product-content-subtitle {
+  margin-bottom: 30px;
+  color: #fff;
+}
+.main .content1 p {
+  margin-top: 20px;
+}
+
+.main .content2{
+  padding-top: 250px;
+  /*height: 735px;*/
+}
+.product-img{
+  top: 445px;
+}
+.main .content-bottom {
+  padding-top: 300px;
+}

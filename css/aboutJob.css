@@ -1,5 +1,6 @@
 .main .content1 {
   background: url(../img/job-banner.jpg);
+  background-size: cover;
   color: #fff;
 }
 .main .content2 {

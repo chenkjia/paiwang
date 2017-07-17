@@ -1,0 +1,112 @@
+.main .content1 {
+  background: url(../img/ixchache.jpg);
+  background-size: cover;
+}
+
+.main .content1>div {
+  padding-top: 235px;
+}
+
+.main .product-content-subtitle{
+  color: #000;
+  font-size: 24px;
+  line-height: 60px;
+}
+
+.product-img{
+  padding: 0 80px;
+  position: absolute;
+  /*background: #f4f4f4;*/
+  top: 385px;
+  right: 0px;
+  left: 43%;
+  transform: translateX(-50%);
+}
+
+.content-bottom {
+  padding-top: 500px;
+}
+
+.main .content2 {
+  padding: 0 270px;
+}
+
+.main .content2 .content-title, .main .content3 .content-title {
+  font-size: 36px;
+  padding: 50px 0;
+}
+
+.content2 .content2-bottom {
+  padding: 64px;
+}
+.content2 .content2-bottom p, .content3 p{
+  text-align: center;
+}
+.content2 .content2-bottom .content-title{
+  color: #ff0000;
+  padding: 0;
+}
+.content2 .content2-bottom .content-title span {
+  font-size: 18px;
+}
+
+.main .content3 {
+  background: url(../img/ixchache1.jpg);
+  background-size: cover;
+  
+}
+
+.main .content3 .content-title, .main .content3 p{
+  color: #fff;
+}
+
+.main .content3 ul, .main .content4{
+  padding: 80px 150px;
+}
+.main .content3 ul li{
+  margin-bottom: 90px;
+  text-align: center;
+}
+
+.main .content3 ul li p{
+  margin-top: 30px;
+}
+.content4 .content-title {
+  margin:80px 0;
+}
+.content4 ul .row{
+  margin-left: 0;
+  margin-right: 0;
+}
+.content4 ul li div{
+  padding-top: 18px;
+  margin-bottom: 24px;
+}
+.content4 ul li p {
+  font-size: 16px;
+  color: #fff;
+}
+.content4 .bottom-text {
+  padding: 30px 15px;
+}
+.content4 .bottom-text-m {
+  margin-top: 14%;
+}
+.content4 ul li div {
+  width: 95%;
+  height: 270px;
+}
+.content4 ul li:nth-child(1) >div{
+  background:linear-gradient(to right ,#a380b9, #d1c0dc);
+}
+.content4 ul li:nth-child(2) >div{
+  background:linear-gradient(to right ,#e76b6c, #f3b5b5);
+}
+.content4 ul li:nth-child(3) >div{
+  height: 150px;
+  background:linear-gradient(to right ,#619bdc, #b0cced);
+}
+.content4 ul li:nth-child(4) >div{
+  height: 150px;
+  background:linear-gradient(to right ,#d4aa70, #e9d4b7);
+}

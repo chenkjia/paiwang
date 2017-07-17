@@ -137,9 +137,19 @@ button{
   color: #ea042b;
   font-size: 15px;
 }
-.btn-red:hover,
-.btn-red:focus{
+.btn-border-red{
   background: #ea042b;
   border-color: rgba(255,255,255,0.2);
+  color: #fff;
+}
+.btn-red:hover,
+.btn-red:focus{
+  /*background: #ea042b;*/
+  /*border-color: rgba(255,255,255,0.2);*/
+  /*color: #fff;*/
+  color: #ea042b;
+}
+.btn-border-red:hover,
+.btn-border-red:focus{
   color: #fff;
 }

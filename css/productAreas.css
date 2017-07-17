@@ -1,9 +1,6 @@
-
-.main .outer-section {
-  position: relative;
-}
 .main .content1 {
   background: url(../img/banner1.jpg);
+  background-size: cover;
 }
 
 .main .content1>div {

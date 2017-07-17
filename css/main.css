@@ -48,6 +48,7 @@ section h5,p,li {
   text-align: center;
   color: #fff;
   font-size: 24px;
+  cursor: pointer;
 }
 .bottom-promote h1 {
   padding: 10px;

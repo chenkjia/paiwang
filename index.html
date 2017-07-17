@@ -34,21 +34,21 @@
   <!-- header -->
   <div class="content1 swiper-container">
     <div class="swiper-wrapper">
-        <div class="swiper-slide">
+        <div class="swiper-slide" onclick="linkHtml('index.html')">
           <img src="img/panabit-banner1.jpg" alt="">
           <div class="banner-title">
             <h1>国内领先的网络应用层解决方案供应商</h1>
             <p>基于广受好评的网络应用识别优化引擎以及业界领先的PANAOS操作系统</p>
           </div>
         </div>
-        <div class="swiper-slide">
+        <div class="swiper-slide" onclick="linkHtml('ixcache.html')">
           <img src="img/panabit-banner2.jpg" alt="">
           <div class="banner-title">
             <h1>iXCache内容缓存加速</h1>
             <p>给我一点空间，我会将你的网络变成小宇宙</p>
           </div>
         </div>
-        <div class="swiper-slide">
+        <div class="swiper-slide" onclick="linkHtml('panalog.html')">
           <img src="img/panabit-banner3.jpg" alt="">
           <div class="banner-title">
             <h1>Panalog运营商日志留存</h1>
@@ -146,8 +146,13 @@
     // 如果需要分页器
     pagination: '.swiper-pagination',
     paginationType : 'bullets',
-    paginationClickable: true
-  })        
+    paginationClickable: true,
+    preventLinksPropagation : true,
+  })
+  // 链接
+  function linkHtml (link) {
+    window.location.href=link
+  }      
 </script>
 </body>
 </html>

@@ -17,5 +17,9 @@
 .main .bottom-promote h1 {
   font-size: 24px;
 }
-  
+
+.main .outer-section {
+  position: relative;
+}
+
 /*.main .product-content-subtitle{}*/
