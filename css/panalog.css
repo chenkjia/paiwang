@@ -1,5 +1,5 @@
 .main .content1{
-  background: url(../img/panalog-banner.jpg);
+  background: url(../img/panalog-banner.jpg) center bottom;
   background-size: cover;
 }
 
@@ -7,7 +7,8 @@
   padding-top: 235px;
 }
 .main .content2 .content-title{
-  font-size: 32px;
+  font-size: 36px;
+  padding: 50px 0;
 }
 .main .product-content-title, .main .product-content-subtitle {
   margin-bottom: 30px;
@@ -18,25 +19,41 @@
 }
 
 .main .content2{
+  padding: 0 270px;
   padding-top: 250px;
   padding-bottom: 100px;
   /*height: 735px;*/
 }
-.product-img{
-  top: 445px;
+.product-computer{
+  margin-top: -100px;
+  text-align: center;
 }
 .main .content-bottom {
-  padding-top: 300px;
+  padding-top: 100px;
 }
 
 .main .content3 {
-  height: 820px;
-  background: url(../img/panalog-bg1.jpg);
-  background-size: cover;
+  padding: 80px 150px;
+  height: 892px;
+  background: url(../img/panalog-bg1.jpg) center center;
+}
+.main .content3 .content-title {
+  font-size: 36px;
+  line-height: 4;
+  color: #fff;
+}
+.main .content3 div {
+  width: 960px;
+  margin: 0 auto;
+}
+.main .content3 p {
+  margin-top: 12px;
+  color: #fff;
 }
 .main .content4 {
-  height: 767px;
-  background: url(../img/panalog-bg2.jpg);
+  padding: 80px 150px;
+  height: 820px;
+  background: url(../img/panalog-bg2.jpg) top center;
   background-size: cover;
 }
 .content4 .content-title{
@@ -44,6 +61,7 @@
 }
 
 .main .content5 {
+  padding: 80px 150px;
   /*height: 500px;*/
   background: url(../img/panalog-bg3.jpg);
   background-size: cover;

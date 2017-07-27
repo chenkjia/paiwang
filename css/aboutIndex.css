@@ -1,5 +1,6 @@
 .main .content1 {
   background: url(../img/banner2.jpg);
+  background-size: cover;
 }
 .content2 {
   padding: 116px 185px;
@@ -25,7 +26,6 @@
   width: 105px;
   height: 115px;
   background: url(../img/spirit1.png);
-  background-size: cover ;
   margin: auto;
 }
 .content3 .col-md-6:nth-of-type(2) .icon{

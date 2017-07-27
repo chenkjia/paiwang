@@ -1,5 +1,5 @@
 .main .content1 {
-  background: url(../img/new-banner.jpg);
+  background: url(../img/new-banner.jpg) right center;
   background-size: cover;
 }
 .main .content2 {
