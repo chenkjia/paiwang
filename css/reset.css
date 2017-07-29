@@ -117,15 +117,15 @@ input, select, img {
 button{
   outline:none !important;
 }
-.btn-pink{
+.btn-pink, .btn-pink:focus{
   background: rgba(0,0,0,0);
   border-color: rgba(255,255,255,0.2);
   /*border-color: #ea042b;*/
   color: #fff;
   font-size: 15px;
+  outline: none;
 }
-.btn-pink:hover,
-.btn-pink:focus{
+.btn-pink:hover{
   background: #ea042b;
   border-color: rgba(255,255,255,0.2);
   color: #fff;

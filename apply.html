@@ -1,0 +1,249 @@
+<div class="modal fade myModal-sy in" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none; padding-left: 0px;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+  <form class="form-horizontal" role="form" data-type="sy"> 
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title" id="myModalLabel">申请试用</h4>
+      </div>
+      <div class="modal-body my-tryout-label">
+          <div class="form-group">
+            <label for="inputEmail3" class="col-sm-2 control-label">试用领域</label>
+            <div class="col-sm-9">
+              <select class="form-control input-sm" name="field">
+                  <option value="企业">企业</option>
+                  <option value="运营商">运营商</option>
+                  <option value="政府">政府</option>
+                  <option value="金融">金融</option>
+                  <option value="教育">教育</option>
+                  <option value="能源">能源</option>
+                  <option value="小区">小区</option>
+                  <option value="其他">其他</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-sm-2 control-label">公司名称</label>
+            <div class="col-sm-9">
+              <input type="text" class="form-control input-sm" name="company">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-sm-2 control-label">所在城市</label>
+            <div class="col-sm-3">
+              <select class="form-control input-sm city-group" name="province">
+                <option value="-1">省份</option>
+              <option value="1">北京</option><option value="2">上海</option><option value="3">天津</option><option value="4">重庆</option><option value="5">河北</option><option value="6">山西</option><option value="7">河南</option><option value="8">辽宁</option><option value="9">吉林</option><option value="10">黑龙江</option><option value="11">内蒙古</option><option value="12">江苏</option><option value="13">山东</option><option value="14">安徽</option><option value="15">浙江</option><option value="16">福建</option><option value="17">湖北</option><option value="18">湖南</option><option value="19">广东</option><option value="20">广西</option><option value="21">江西</option><option value="22">四川</option><option value="23">海南</option><option value="24">贵州</option><option value="25">云南</option><option value="26">西藏</option><option value="27">陕西</option><option value="28">甘肃</option><option value="29">青海</option><option value="30">宁夏</option><option value="31">新疆</option><option value="32">台湾</option><option value="84">钓鱼岛</option><option value="52993">港澳</option></select>
+            </div>
+            <div class="col-sm-3">
+              <select class="form-control input-sm city-group" name="city">
+                <option value="-1">地级市</option>
+              </select>
+            </div>
+            <div class="col-sm-3">
+              <select class="form-control input-sm city-group" name="county">
+                <option value="-1">市、县级市、县</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-sm-2 control-label">详细地址</label>
+            <div class="col-sm-9">
+              <input type="text" class="form-control input-sm" name="address">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-sm-2 control-label">联系人</label>
+            <div class="col-sm-9">
+              <input type="text" class="form-control input-sm" name="contact">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-sm-2 control-label">职务</label>
+            <div class="col-sm-9">
+              <input type="text" class="form-control input-sm" name="job">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-sm-2 control-label">邮箱</label>
+            <div class="col-sm-9">
+              <input type="text" class="form-control input-sm" name="email">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-sm-2 control-label">联系电话</label>
+            <div class="col-sm-9">
+              <input type="text" class="form-control input-sm" name="tel">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-sm-2 control-label">手机</label>
+            <div class="col-sm-9">
+              <input type="text" class="form-control input-sm" name="phone">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-sm-2 control-label text-left">如何知道</label>
+            <div class="col-sm-9">
+      <select class="form-control input-sm city-group" name="zid">
+        <option selected="selected" value="网络搜索">网络搜索</option>
+        <option value="网络广告">网络广告</option>
+        <option value="朋友推荐">朋友推荐</option>
+        <option value="QQ群">QQ群</option>
+        <option value="其他">其他</option>
+      </select>
+            </div>
+          </div>
+      </div>
+      <div class="modal-footer">
+        <button type="reset" class="btn btn-default">重置</button>
+        <button type="button" class="btn btn-primary submit">提交</button>
+      </div>
+        </form>
+    </div>
+  </div>
+</div>
+<div class="modal fade myModal-sy" id="myModal-1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+  <form class="form-horizontal" role="form" data-type="jm"> 
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title" id="myModalLabel">申请合作加盟</h4>
+      </div>
+      <div class="modal-body my-tryout-label">
+          <div class="form-group">
+            <label class="col-sm-2 control-label">公司名称</label>
+            <div class="col-sm-9">
+              <input type="text" class="form-control input-sm" name="company">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-sm-2 control-label">所在城市</label>
+            <div class="col-sm-3">
+              <select class="form-control input-sm city-group" name="province">
+                <option value="-1">省份</option>
+              <option value="1">北京</option><option value="2">上海</option><option value="3">天津</option><option value="4">重庆</option><option value="5">河北</option><option value="6">山西</option><option value="7">河南</option><option value="8">辽宁</option><option value="9">吉林</option><option value="10">黑龙江</option><option value="11">内蒙古</option><option value="12">江苏</option><option value="13">山东</option><option value="14">安徽</option><option value="15">浙江</option><option value="16">福建</option><option value="17">湖北</option><option value="18">湖南</option><option value="19">广东</option><option value="20">广西</option><option value="21">江西</option><option value="22">四川</option><option value="23">海南</option><option value="24">贵州</option><option value="25">云南</option><option value="26">西藏</option><option value="27">陕西</option><option value="28">甘肃</option><option value="29">青海</option><option value="30">宁夏</option><option value="31">新疆</option><option value="32">台湾</option><option value="84">钓鱼岛</option><option value="52993">港澳</option></select>
+            </div>
+            <div class="col-sm-3">
+              <select class="form-control input-sm city-group" name="city">
+                <option value="-1">地级市</option>
+              </select>
+            </div>
+            <div class="col-sm-3">
+              <select class="form-control input-sm city-group" name="county">
+                <option value="-1">市、县级市、县</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-sm-2 control-label">详细地址</label>
+            <div class="col-sm-9">
+              <input type="text" class="form-control input-sm" name="address">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-sm-2 control-label">注册资金</label>
+            <div class="col-sm-9">
+              <input type="text" class="form-control input-sm" name="cash">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-sm-2 control-label">成立时间</label>
+            <div class="col-sm-9">
+              <input type="text" class="form-control input-sm" name="adddate">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-sm-2 control-label">系统集成资质</label>
+            <div class="col-sm-9">
+              <select class="form-control input-sm" name="zid">
+        <option selected="selected" value="无">无</option>
+        <option value="1级">1级</option>
+        <option value="2级">2级</option>
+        <option value="3级">3级</option>
+        <option value="4级">4级</option>
+      </select>
+            </div>
+          </div>
+          <div class="form-group" style="margin-bottom:0;">
+            <label class="col-sm-3 control-label my-control-yxhz">意向合作商业</label>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-12 my-col-sm-zf">
+              <label class="checkbox-inline my-checkbox-zf">
+                <input type="checkbox" id="inlineCheckbox1" value="option1" name="cooperation[0]"> 政府
+              </label>
+              <label class="checkbox-inline">
+                <input type="checkbox" id="inlineCheckbox2" value="option2" name="cooperation[1]"> 金融
+              </label>
+              <label class="checkbox-inline">
+                <input type="checkbox" id="inlineCheckbox3" value="option3" name="cooperation[2]"> 教育
+              </label>
+              <label class="checkbox-inline">
+                <input type="checkbox" id="inlineCheckbox3" value="option3" name="cooperation[3]"> 能源
+              </label>
+              <label class="checkbox-inline">
+                <input type="checkbox" id="inlineCheckbox3" value="option3" name="cooperation[4]"> 运营商
+              </label>
+              <label class="checkbox-inline">
+                <input type="checkbox" id="inlineCheckbox3" value="option3" name="cooperation[5]"> 企业
+              </label>
+              <label class="checkbox-inline">
+                <input type="checkbox" id="inlineCheckbox3" value="option3" name="cooperation[6]"> 小区
+              </label>
+              <label class="checkbox-inline">
+                <input type="checkbox" id="inlineCheckbox3" value="option3" name="cooperation[7]"> 网吧
+              </label>
+              <label class="checkbox-inline">
+                <input type="checkbox" id="inlineCheckbox3" value="option3" name="cooperation[8]"> 其他
+              </label>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-sm-2 control-label">联系人</label>
+            <div class="col-sm-9">
+              <input type="text" class="form-control input-sm" name="contact">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-sm-2 control-label">职务</label>
+            <div class="col-sm-9">
+              <input type="text" class="form-control input-sm" name="job">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-sm-2 control-label">邮箱</label>
+            <div class="col-sm-9">
+              <input type="text" class="form-control input-sm" name="email">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-sm-2 control-label">联系电话</label>
+            <div class="col-sm-9">
+              <input type="text" class="form-control input-sm" name="tel">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-sm-2 control-label">手机</label>
+            <div class="col-sm-9">
+              <input type="text" class="form-control input-sm" name="phone">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-sm-2 control-label">业务介绍</label>
+            <div class="col-sm-9">
+              <textarea class="form-control input-sm" rows="2" name="cont"></textarea>
+              <!--<input type="text" class="form-control input-sm"  rows="3" name="cont">
+              <textarea class="form-control input-sm" rows="3" name="mod"></textarea>-->
+            </div>
+          </div>
+      </div>
+      <div class="modal-footer">
+        <button type="reset" class="btn btn-default">重置</button>
+        <button type="button" class="btn btn-primary submit">提交</button>
+      </div>
+  </form>
+    </div>
+  </div>
+</div>

@@ -15,6 +15,9 @@
       margin-bottom: 0px;
       border-bottom: 0px;
     }
+    .navbar-default .navbar-nav>li>a.current, .navbar-default .navbar-nav>li>a.current:focus, .navbar-default .navbar-nav>li>a.current:hover {
+      color: #ea042b;
+    }
     .container-fluid {
       padding: 0 80px;
     }
@@ -32,5 +35,12 @@
       </ul>
     </div>
   </nav>
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script>
+    $(function() {
+      var current = window.self.frameElement.attributes.current.value;
+      $(".nav a[href='" + current + ".html']").addClass('current');
+    });
+  </script>
 </body>
 </html>

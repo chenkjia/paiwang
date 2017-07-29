@@ -20,8 +20,8 @@
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <div class="navbar-right">
-            <a href="#" class="btn btn-pink">免费试用</a>
-            <a href="#" class="btn btn-pink">申请加盟</a>
+            <a href="#" class="btn btn-pink" data-toggle="modal" data-target="#myModal">免费试用</a>
+            <a href="#" class="btn btn-pink" data-toggle="modal" data-target="#myModal-1">申请加盟</a>
           </div>
           <ul class="nav navbar-nav navbar-right header-top">
             <li><a href="#">产品与解决方案</a></li>
@@ -139,7 +139,16 @@
 <script src="js/jquery-3.2.1.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/swiper-3.4.2.jquery.min.js"></script>
-<script>        
+<script>
+  $.ajax({
+    type: 'GET',
+    url: 'apply.html',
+    dataType: 'html',
+    async : false,
+    success: function (d){
+      $('body').append($(d));
+    }
+  });
   var mySwiper = new Swiper ('.swiper-container', {
     loop: true,
     autoplay : 5000,
