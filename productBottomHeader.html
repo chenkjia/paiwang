@@ -11,6 +11,9 @@
   <link rel="stylesheet" href="css/panabit.css">
   <link rel="stylesheet" href="css/swiper-3.4.2.min.css">
   <style>
+    .navbar-default .navbar-nav>li>a.current, .navbar-default .navbar-nav>li>a.current:focus, .navbar-default .navbar-nav>li>a.current:hover {
+      color: #ea042b;
+    }
     nav:nth-child{
       margin-bottom: 0px;
       border-bottom: 0px;
@@ -32,5 +35,14 @@
       </ul>
     </div>
   </nav>
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script>
+    $(function() {
+
+      var current = window.self.frameElement.attributes.current.value;
+      console.log(current)
+      $(".nav a[href='" + current + ".html']").addClass('current');
+    });
+  </script>
 </body>
 </html>
