@@ -25,7 +25,8 @@
   width: 30px;
   height: 30px;
   background: url(../img/spirit.png);
-  background-size: cover ;
+  /*background-size: cover ;*/
+  background-size: 400px;
   margin-right: 7.5px;
 }
 .attention span:nth-child(2) {
