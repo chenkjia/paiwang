@@ -28,6 +28,7 @@
   /*background-size: cover ;*/
   background-size: 400px;
   margin-right: 7.5px;
+  cursor: pointer;
 }
 .attention span:nth-child(2) {
   background-position: -40px 0;
