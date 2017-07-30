@@ -8,11 +8,10 @@
   <link rel="stylesheet" href="css/header.css">
   <link rel="stylesheet" href="css/footer.css">
   <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/panabit.css">
   <link rel="stylesheet" href="css/swiper-3.4.2.min.css">
 </head>
 <body>
-  <div>
+  <div id="header-containers">
     <nav class="navbar navbar-default">
       <div class="container-fluid">
         <!-- logo -->
@@ -21,8 +20,8 @@
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <div class="navbar-right">
-            <a href="#" class="btn btn-red">免费试用</a>
-            <a href="#" class="btn btn-border-red">申请加盟</a>
+            <a href="#" class="btn btn-red" data-toggle="modal" data-target="#myModal">免费试用</a>
+            <a href="#" class="btn btn-border-red" data-toggle="modal" data-target="#myModal-1">申请加盟</a>
           </div>
           <ul class="nav navbar-nav navbar-right header-top">
             <li><a href="solution.html" target="_top">产品与解决方案</a></li>
@@ -33,5 +32,17 @@
       </div><!-- /.container-fluid -->
     </nav>
   </div>
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script>
+    $.ajax({
+      type: 'GET',
+      url: 'apply.html',
+      dataType: 'html',
+      async : false,
+      success: function (d){
+        $('body').append($(d));
+      }
+    });
+  </script>
 </body>
 </html>

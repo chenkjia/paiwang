@@ -33,9 +33,13 @@ nav:nth-child(1) {
 .header-top{
   margin-top: 26px;
 }
+#header-bottom .navbar-default {
+  margin: 0;
+}
 .navbar-default{
   background: #fff;
 }
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
   border-color: #a9a9a9;
 }
+

@@ -5,10 +5,8 @@
   <title>header</title>
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/reset.css">
-  <!-- <link rel="stylesheet" href="css/header.css"> -->
-  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/header.css">
   <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/panabit.css">
   <link rel="stylesheet" href="css/swiper-3.4.2.min.css">
   <style>
     nav:nth-child{
@@ -38,8 +36,11 @@
   <script src="js/jquery-3.2.1.min.js"></script>
   <script>
     $(function() {
-      var current = window.self.frameElement.attributes.current.value;
-      $(".nav a[href='" + current + ".html']").addClass('current');
+      let currentList = window.location.href.split('/');
+      // var current = window.self.frameElement.attributes.current.value;
+      var current = currentList[currentList.length-1]
+      console.log(current)
+      $(".nav a[href='" + current + "']").addClass('current');
     });
   </script>
 </body>
