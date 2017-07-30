@@ -49,3 +49,32 @@
   border-top: 1px solid #1e1e1e;
 }
 
+/*bottom-promote*/
+.bottom-promote {
+  padding: 20px 0;
+  /*height: 125px;*/
+  background: url(../img/bottom.png);
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+  font-size: 24px;
+  cursor: pointer;
+}
+.bottom-promote a{
+  color: #fff;
+}
+.bottom-promote a:hover, .bottom-promote a:active, .bottom-promote a:focus{
+  text-decoration: none;
+  outline: none;
+}
+.bottom-promote a h1 {
+  padding: 10px;
+}
+.bottom-promote a button {
+  font-size: 16px;
+  width: 100px;
+  height: 27px;
+  border: 1px solid #fff;
+  background: rgba(0,0,0,0);
+}
+

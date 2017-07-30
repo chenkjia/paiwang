@@ -3,17 +3,20 @@
 <head>
   <meta charset="UTF-8">
   <title>aboutClient</title>
-  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
   <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/header.css">
   <link rel="stylesheet" href="css/footer.css">
   <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/swiper-3.4.2.min.css">
+  <!-- <link rel="stylesheet" href="css/swiper-3.4.2.min.css"> -->
 </head>
 <body>
-  <section id="footerLink" class="bottom-promote">
-    <h1>免费体验派网产品</h1>
-    <button>现在注册</button>
+  <section class="bottom-promote">
+    <a href="#" data-toggle="modal" data-target="#myModal">
+      <div>
+        <h1>免费体验派网产品</h1>
+        <button>现在注册</button>
+      </div>
+    </a>
   </section>
   <footer class="main-footer">
     <div class="container">
@@ -88,10 +91,13 @@
     </div>
   </div>
   <script src="js/jquery-3.2.1.min.js"></script>
-  <script src="js/common.js"></script>
   <script>
-    let footerLink = document.querySelector('#footerLink');
-    footerLink.onclick = () => {
+    function linkHtml (link, top) {
+      if (top) {
+        window.open(link)
+      } else {
+        window.location.href=link
+      }
     }
   </script>
 </body>
