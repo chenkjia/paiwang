@@ -59,8 +59,19 @@ img{
   background-size: cover;
 }
 .main .product>div>div {
-  padding-top: 20px;
+  padding: 25px;
   line-height: 120px;
+}
+
+.main .product .product-navbar {
+  cursor: pointer;
+}
+
+.main .product .product-navbar div {
+  background: rgba(0,0,0,0.3);
+}
+.main .product .product-navbar div:hover{
+  background: rgba(0,0,0,0.1);
 }
 
 .main section>div>div p{
@@ -115,4 +126,5 @@ img{
   width: 50%;
   vertical-align:middle;
 }
+
 
