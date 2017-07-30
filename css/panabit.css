@@ -113,11 +113,6 @@ img{
   text-decoration: underline;
   cursor: pointer;
 }
-/*
-.main .case-nav {
-  padding: 20px 0;
-}
-*/
 .main .case-content{
   padding: 45px 0;
 }
@@ -141,6 +136,7 @@ img{
 .main .img-containers {
   text-align: center;
 }
+
 .main .news img {
   width: 50%;
   vertical-align:middle;
