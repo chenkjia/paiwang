@@ -15,6 +15,25 @@ img{
 .navbar-default{
   background: rgba(0,0,0,0);
 }
+.banner-button>div {
+  cursor: pointer;
+}
+.swiper-slide {
+  cursor: pointer;
+  position: relative;
+}
+.swiper-slide .hack {
+  display: none;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(255,255,255,0.2)
+}
+.swiper-slide:hover .hack {
+  display: block;
+}
 .swiper-pagination-bullets .swiper-pagination-bullet {
   width: 50px;
   height: 5px;
@@ -126,3 +145,4 @@ img{
   width: 50%;
   vertical-align:middle;
 }
+
