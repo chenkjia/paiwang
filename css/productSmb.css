@@ -1,3 +1,6 @@
+.product-img{
+  top: 435px;
+}
 .content3 {
   height: 820px;
   background: url(../img/product-smb7.jpg);
@@ -35,6 +38,10 @@
   text-align: center;
   height: 80px;
   line-height: 80px;
+}
+.content-buy .buy-bottom .glyphicon {
+  margin-right: 10px;
+  vertical-align: middle;
 }
 .content-buy .buy-bottom:nth-child(1){
   background: #811919;

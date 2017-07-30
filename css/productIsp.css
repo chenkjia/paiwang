@@ -1,0 +1,76 @@
+.main .content1 {
+  background: url(../img/banner1.jpg) left bottom;
+  background-size: cover;
+}
+
+.main .content1>div {
+  padding-top: 235px;
+}
+
+.main .product-content-title {
+  /*margin-top: 235px;*/
+  margin-bottom: 30px;
+}
+
+.main .content2{
+  padding-top: 250px;
+  /*height: 735px;*/
+}
+.product-img{
+  padding: 0 80px;
+  position: absolute;
+  /*background: #f4f4f4;*/
+  top: 435px;
+  right: 0px;
+}
+
+.content3 {
+  height: 686px;
+  background: url(../img/productIsp-bg1.jpg) no-repeat;
+  background-size: cover;
+}
+.content4 {
+  height: 800px;
+  background: url(../img/product-bg2.jpg);  
+}
+.content3, .content4 {
+  padding:0 270px;
+  background-position: center center;
+}
+.content3 p {
+  color: #fff;
+}
+
+.product-title, .product-other-title{
+  padding: 80px 0;
+}
+
+.main .content-title {
+  font-size: 36px;
+}
+
+/*client*/
+.main .more{
+  text-decoration: none;
+}
+.main .more p{
+  margin-top: 10px;
+  text-align: center;
+  color: red;
+}
+.main .client ul {
+  padding: 50px;
+}
+.main .client ul li {
+  text-align: center;
+  margin-bottom: 50px;
+  /*margin: 90px;*/
+}
+.main .client img{
+  width: 185px;
+  height: 65px;
+}
+  .main .client li:nth-child(2) img, .main .client li:nth-child(3) img{
+    width: 100px;
+  height: 65px;
+}

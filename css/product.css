@@ -23,3 +23,43 @@
 }
 
 /*.main .product-content-subtitle{}*/
+
+/*block6角型*/
+.content-block-group .block{
+  padding:  82px 345px 118px;
+}
+
+.content-block-group .block li {
+  width: 200px;
+  height: 145px;
+}
+
+.content-block-group .block li:nth-child(1) {
+  background: url(../img/product-areas-block1.png) no-repeat center;
+}
+.content-block-group .block li:nth-child(2) {
+  background: url(../img/product-areas-block2.png) no-repeat center;
+}
+.content-block-group .block li:nth-child(3) {
+  background: url(../img/product-areas-block3.png) no-repeat center;
+}
+.content-block-group .block li {
+  text-align: center;
+  color: #fff;
+}
+.content-block-group .block li div {
+  margin-top: 20%;
+}
+.content-block-group .block .col-md-4 p{
+  margin-right: 5px;
+  font-size: 14px;
+  line-height: 0px;
+  color: #fff;
+}
+.content-block-group .block .col-md-4 h2{
+  font-size: 41px;
+  line-height: 50px;
+}
+.content-block-group .block .col-md-4 h2 span {
+  font-size: 15px;
+}
