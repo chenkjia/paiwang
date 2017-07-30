@@ -34,4 +34,13 @@ $(function(){
       $('#header-bottom').html(data)
     }
   })
+  $.ajax({
+    type: 'GET',
+    url: 'productBottomHeader.html',
+    dataType: 'html',
+    async : false,
+    success: (data) => {
+      $('#product-bottom-header').html(data)
+    }
+  })
 })

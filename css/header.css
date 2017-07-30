@@ -33,7 +33,7 @@ nav:nth-child(1) {
 .header-top{
   margin-top: 26px;
 }
-#header-bottom .navbar-default {
+#header-bottom .navbar-default, #product-bottom-header .navbar-default {
   margin: 0;
 }
 .navbar-default{
