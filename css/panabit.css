@@ -29,7 +29,7 @@ img{
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(255,255,255,0.2)
+  /*background: rgba(255,255,255,0.2)*/
 }
 .swiper-slide:hover .hack {
   display: block;
@@ -74,8 +74,9 @@ img{
 /*product*/
 .main .product>div {
   height: 120px;
-  background: url(../img/panabit-content-bg.jpg) 100% 100%;
-  background-size: cover;
+  background: #333;
+  /*background: url(../img/panabit-content-bg.jpg) 100% 100%;*/
+  /*background-size: cover;*/
 }
 .main .product>div>div {
   padding: 25px;
@@ -87,10 +88,10 @@ img{
 }
 
 .main .product .product-navbar div {
-  background: rgba(0,0,0,0.3);
+  /*background: rgba(0,0,0,0.3);*/
 }
 .main .product .product-navbar div:hover{
-  background: rgba(0,0,0,0.1);
+  background: #999;
 }
 
 .main section>div>div p{
