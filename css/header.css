@@ -71,7 +71,7 @@ nav:nth-child(1) {
   width: auto;
   white-space: normal;
   margin-right: 40px;
-  width: 300px;
+  width: 240px;
   display: inline-block;
   padding-top: 25px;
   vertical-align: top;
@@ -112,5 +112,3 @@ nav:nth-child(1) {
   opacity: 1;
   height: 400px;
 }
-
-

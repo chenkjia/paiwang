@@ -42,3 +42,12 @@ $.ajax({
     $('#product-bottom-header').html(data)
   }
 })
+$.ajax({
+  type: 'GET',
+  url: 'apply.html',
+  dataType: 'html',
+  async : false,
+  success: function (d){
+    $('body').append($(d));
+  }
+});

@@ -34,6 +34,10 @@ img{
 .swiper-slide:hover .hack {
   display: block;
 }
+.swiper-slide {
+  background-repeat: no-repeat;
+  background-position: center right;
+}
 .swiper-pagination-bullets .swiper-pagination-bullet {
   width: 50px;
   height: 5px;
@@ -141,66 +145,4 @@ img{
 .main .news img {
   width: 50%;
   vertical-align:middle;
-}
-.bg-nav{
-  position: absolute;
-  z-index: -1;
-  top: 0;
-  width: 100%;
-  height: 0;
-  background: #16171a;
-  transition: height 0.3s;
-
-}
-.menu-text-wrap{
-  overflow: hidden;
-  opacity: 0;
-  height: 0;
-  transition: all 0.5s;
-  margin-top: 100px;
-}
-.menu-text-col{
-  width: auto;
-  white-space: normal;
-  margin-right: 40px;
-  width: 300px;
-  display: inline-block;
-  padding-top: 25px;
-  vertical-align: top;
-}
-.menu-text-col li{
-  margin-bottom: 12px;
-  min-width: 100px;
-  padding-right: 16px;
-}
-.menu-text-item-con {
-  padding-top: 20px;
-  outline: 0;
-}
-.menu-text-wrap h3{
-  color: #999;
-  font-weight: 400;
-}
-.text-item-col a {
-  color: #d2d2d2;
-  width: 240px;
-  height: 42px;
-  padding: 0 20px;
-  line-height: 42px;
-  box-sizing: border-box;
-  display: block;
-  background-color: #202124;
-  transition: all .4s;
-}
-.index-nav:hover .bg-nav {
-  height: 500px;
-}
-.index-nav:hover>.container-fluid {
-  background: #202124;
-  transition: background 0.5s;
-}
-
-.index-nav:hover .menu-text-wrap{
-  opacity: 1;
-  height: 400px;
 }

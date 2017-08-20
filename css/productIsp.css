@@ -31,7 +31,7 @@
 }
 .content4 {
   height: 800px;
-  background: url(../img/product-bg2.jpg);  
+  background: #dcdffd url(../img/product-bg2.jpg) no-repeat;  
 }
 .content3, .content4 {
   padding:0 270px;
