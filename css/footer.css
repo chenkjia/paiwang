@@ -30,13 +30,16 @@
   margin-right: 7.5px;
   cursor: pointer;
 }
-.attention span:nth-child(2) {
+.attention span#wechat {
+  background-position: 0 0;
+}
+.attention span#weibo {
   background-position: -40px 0;
 }
-.attention span:nth-child(3) {
+.attention span#qq {
   background-position: -80px 0;
 }
-.attention span:nth-child(4) {
+.attention span#email {
   background-position: -120px 0;
 }
 .copyright{
