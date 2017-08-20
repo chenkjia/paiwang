@@ -26,7 +26,9 @@
 
 /*block6角型*/
 .content-block-group .block{
-  padding:  82px 345px 118px;
+  padding: 60px 0 118px;
+  width: 600px;
+  margin: 0 auto;
 }
 
 .content-block-group .block li {

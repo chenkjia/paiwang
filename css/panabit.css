@@ -34,6 +34,10 @@ img{
 .swiper-slide:hover .hack {
   display: block;
 }
+.swiper-slide {
+  background-repeat: no-repeat;
+  background-position: center right;
+}
 .swiper-pagination-bullets .swiper-pagination-bullet {
   width: 50px;
   height: 5px;
