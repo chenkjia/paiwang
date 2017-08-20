@@ -85,13 +85,35 @@ section h5,p,li {
   padding: 5px;
   width: 270px;
   float: left;
-  background: #fff;
-  transition: all .3s;
-  box-shadow: 0 0 10px rgba(0,0,0,0.4);
   overflow: hidden;
 }
 .main .case-content>li a{
+  display: block;
+  position: relative;
+  transition: all .3s;
   text-decoration: none!important;
+}
+.main .case-content>li .mask{
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0,0,0,0.4);
+  transition: all .3s;
+  text-align: center;
+}
+.main .case-content>li .mask p{
+  height: 70px;
+  padding-top: 20px;
+  line-height: 1.5;
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+}
+.main .case-content>li:hover .mask{
+  opacity: 1;
 }
 .main .case-content>li h2{
   height: 70px;
@@ -99,12 +121,8 @@ section h5,p,li {
   font-size: 16px;
   color: #333;
   text-align: center;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
 }
 .main .case-content>li img {
-  width: 100%;
   height: 160px;
 }
 .main .case-content>li img:hover {
@@ -117,5 +135,5 @@ section h5,p,li {
   background: #ea042b;
   color: #fff;
   display: inline-block;
-  margin: 20px 0 20px 25px;
+  margin: 20px 0;
 }
