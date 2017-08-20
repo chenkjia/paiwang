@@ -37,6 +37,10 @@
   cursor: pointer;
 }
 
+.tabActive{
+  color: red !important;
+  border-bottom: 1px solid red;
+}
 
 
 
