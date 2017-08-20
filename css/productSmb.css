@@ -3,20 +3,16 @@
 }
 .content3 {
   height: 820px;
-  background: url(../img/product-smb7.jpg);
-  background-size: cover;
+  background:#000f34 url(../img/product-smb7.jpg) center center no-repeat;
 }
 .content3 p {
   text-align: center;
 }
 .content-buy {
-  height: 837px;
+  position: relative;
 }
 .content-buy .buy-content{
-  height: 100%;
-  text-align: center;
-  line-height: 760px;
-  position: relative;
+  padding: 300px 80px 260px;
 }
 .content-buy .buy-content img {
   vertical-align: middle;
@@ -48,6 +44,53 @@
 }
 .content-buy .buy-bottom:nth-child(2){
   background: #1e2e70;
+}
+
+.buy-content-button {
+  display: block;
+  height: 80px;
+}
+
+.buy-content-button:hover {
+  background-color: rgba(255,255,255,0.2)
+}
+.buy-content-buy {
+  background: url(../img/buy-content-buy.png) no-repeat center center;
+}
+
+.buy-content-info {
+  background: url(../img/buy-content-info.png) no-repeat center center;
+}
+.content-buy-info{
+  position: absolute;
+  top: 640px;
+  left: 50%;
+  width: 800px;
+  margin-left: -400px;
+}
+
+.content-buy-info p{
+  font-size: 24px;
+  color: #fff;
+  text-align: center;
+}
+.content-buy-six{
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  width: 800px;
+  margin-left: -400px;
+}
+
+.content-buy-six li>div{
+  margin: 0 auto;
+  width: 120px;
+  height: 120px;
+  padding: 20px 0;
+  line-height: 40px;
+  color: #fff;
+  text-align: center;
+  background: url(../img/buy-content-six.png) no-repeat center center;
 }
 
 .content5 li{
