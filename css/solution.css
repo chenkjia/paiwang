@@ -33,6 +33,10 @@
   height: 60px;
 }
 
+.main .size .table tr td:last-child{
+  cursor: pointer;
+}
+
 
 
 

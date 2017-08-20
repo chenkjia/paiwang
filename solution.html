@@ -49,6 +49,7 @@
       <h1 class="content-title">解决方案</h1>
       <div class="row case-content">
         <div class="col-md-3">
+          <div class="case-active"></div>
           <img src="img/case1.jpg" alt="">
           <p>中国移动网络游戏加速</p>
         </div>
@@ -88,7 +89,7 @@
             <td>6千兆电口</td>
             <td>/</td>
             <td>单电源</td>
-            <td><img src="img/file.png" alt=""></td>
+            <td onclick="linkHtml('http://www.panabit.com/uploads/doc/PA-120.pdf')"><img src="img/file.png" alt=""></td>
           </tr>
           <tr>
             <td>PA-300</td>
@@ -97,7 +98,7 @@
             <td>6千兆电口</td>
             <td>/</td>
             <td>单电源</td>
-            <td><img src="img/file.png" alt=""></td>
+            <td onclick="linkHtml('http://www.panabit.com/uploads/doc/PA-300.pdf')"><img src="img/file.png" alt=""></td>
           </tr>
           <tr>
             <td>PA-500</td>
@@ -106,7 +107,7 @@
             <td>6千兆电口</td>
             <td>/</td>
             <td>单电源</td>
-            <td><img src="img/file.png" alt=""></td>
+            <td onclick="linkHtml('http://www.panabit.com/uploads/doc/PA-500.pdf')"><img src="img/file.png" alt=""></td>
           </tr>
           <tr>
             <td>PA-1000</td>
@@ -115,7 +116,7 @@
             <td>6千兆电口</td>
             <td>/</td>
             <td>单电源</td>
-            <td><img src="img/file.png" alt=""></td>
+            <td onclick="linkHtml('http://www.panabit.com/uploads/doc/PA-1000.pdf')"><img src="img/file.png" alt=""></td>
           </tr>
           <tr>
             <td>PA-1600</td>
@@ -124,7 +125,7 @@
             <td>6千兆电口</td>
             <td>/</td>
             <td>单电源</td>
-            <td><img src="img/file.png" alt=""></td>
+            <td onclick="linkHtml('http://www.panabit.com/uploads/doc/PA-1600.pdf')"><img src="img/file.png" alt=""></td>
           </tr>
           <tr>
             <td>PH-3510</td>
@@ -133,7 +134,7 @@
             <td>6千兆电口</td>
             <td>/</td>
             <td>单电源</td>
-            <td><img src="img/file.png" alt=""></td>
+            <td onclick="linkHtml('http://www.panabit.com/uploads/doc/PH-3510.docx')"><img src="img/file.png" alt=""></td>
           </tr>
           <tr>
             <td>PH-3580</td>
@@ -142,7 +143,7 @@
             <td>6千兆电口</td>
             <td>/</td>
             <td>单电源</td>
-            <td><img src="img/file.png" alt=""></td>
+            <td onclick="linkHtml('http://www.panabit.com/uploads/doc/PH-3580.docx')"><img src="img/file.png" alt=""></td>
           </tr>
         </tbody>
       </table>
@@ -152,5 +153,11 @@
   <script src="js/jquery-3.2.1.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
   <script src="js/common.js"></script>
+  <script>
+    // 链接
+    function linkHtml (link) {
+      window.location.href=link
+    }
+  </script>
 </body>
 </html>
