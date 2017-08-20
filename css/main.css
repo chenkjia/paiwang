@@ -75,6 +75,15 @@ section h5,p,li {
 .main .case-content{
   padding: 45px 0;
 }
+
+.main .case-content .case-active{
+  width: 100%;
+  height: 100%;
+  transition: all 1s;
+}
+.main .case-content div:hover{
+  background: green;  
+}
 .main .case-content>div img {
   height: 160px;
 }
