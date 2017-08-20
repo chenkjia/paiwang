@@ -35,6 +35,24 @@ $.ajax({
 })
 $.ajax({
   type: 'GET',
+  url: 'case.html',
+  dataType: 'html',
+  async : false,
+  success: (data) => {
+    $('#case').html(data)
+  }
+})
+$.ajax({
+  type: 'GET',
+  url: 'case-content.html',
+  dataType: 'html',
+  async : false,
+  success: (data) => {
+    $('#case-content').html(data)
+  }
+})
+$.ajax({
+  type: 'GET',
   url: 'productBottomHeader.html',
   dataType: 'html',
   async : false,

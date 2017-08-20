@@ -121,8 +121,43 @@ img{
 .main .case-content{
   padding: 45px 0;
 }
-.main .case-content>div img {
+.main .case-content>li{
+  margin: 5px;
+  padding: 5px;
+  width: 270px;
+  float: left;
+  background: #fff;
+  transition: all .3s;
+  box-shadow: 0 0 10px rgba(0,0,0,0.4);
+  overflow: hidden;
+}
+.main .case-content>li a{
+  text-decoration: none!important;
+}
+.main .case-content>li h2{
+  height: 70px;
+  line-height: 70px;
+  font-size: 16px;
+  color: #333;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.main .case-content>li img {
   height: 160px;
+}
+.main .case-content>li img:hover {
+  transform: scale(1.02);
+}
+.main .case-content>li span {
+  font-size: 14px;
+  line-height: 1.8;
+  padding: 4px 20px;
+  background: #ea042b;
+  color: #fff;
+  display: inline-block;
+  margin: 20px 0 20px 25px;
 }
 /*news*/
 
