@@ -1,4 +1,4 @@
-.main-footer {
+﻿.main-footer {
 	background: #323232;
 	padding: 30px 0;
   height: 330px;
@@ -39,7 +39,7 @@
 .attention span#qq {
   background-position: -80px 0;
 }
-.attention span#email {
+.attention span#forum {
   background-position: -120px 0;
 }
 .copyright{
@@ -68,16 +68,19 @@
 }
 .bottom-promote a:hover, .bottom-promote a:active, .bottom-promote a:focus{
   text-decoration: none;
+  color:#eee;
   outline: none;
 }
 .bottom-promote a h1 {
   padding: 10px;
+  font-weight:bold;
 }
 .bottom-promote a button {
   font-size: 16px;
-  width: 100px;
-  height: 27px;
-  border: 1px solid #fff;
-  background: rgba(0,0,0,0);
+  width: 106px;
+  height: 40px;
+  border:none;
+  border-radius:5px;
+  background: #ea042b;
 }
 

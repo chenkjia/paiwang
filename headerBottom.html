@@ -9,6 +9,9 @@
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/swiper-3.4.2.min.css">
   <style>
+    .subnav .navbar-nav>li>a.current, .subnav .navbar-nav>li>a.current:focus, .subnav .navbar-nav>li>a.current:hover {
+      color: #ea042b;
+    }
     nav:nth-child{
       margin-bottom: 0px;
       border-bottom: 0px;
@@ -19,7 +22,7 @@
   </style>
 </head>
 <body>
-  <nav class="navbar navbar-default">
+  <nav class="subnav navbar navbar-default">
     <div class="container-fluid">
       <ul class="nav navbar-nav navbar-left">
         <li><a href="aboutIndex.html"  target="_top">公司简介</a></li>
@@ -31,12 +34,19 @@
     </div>
   </nav>
   <script src="js/jquery-3.2.1.min.js"></script>
-  <script>
+  <!-- <script>
     $(function() {
       let currentList = window.location.href.split('/');
       // var current = window.self.frameElement.attributes.current.value;
       var current = currentList[currentList.length-1]
       console.log(current)
+      $(".nav a[href='" + current + "']").addClass('current');
+    });
+  </script> -->
+  <script>
+    $(function() {
+      let currentList = window.location.href.split('/');
+      var current = currentList[currentList.length-1];
       $(".nav a[href='" + current + "']").addClass('current');
     });
   </script>

@@ -1,4 +1,4 @@
-/*logo*/
+﻿/*logo*/
 .header-brand{
   padding: 10px 15px;  
 }
@@ -23,8 +23,9 @@ nav:nth-child(1) {
 }
 
 .navbar-index .navbar-nav>li>a,.navbar-index .navbar-nav>li>a:focus{
-  color: #ddd;
+  color: #fff;
 }
+
 
 .navbar-index:nth-child(1) .navbar-nav>li>a:hover {
   color: #fff;
@@ -47,7 +48,7 @@ nav:nth-child(1) {
 }
 
 #header .navbar-default{
-  background: #202124;
+  background: #fff;
 }
 
 .bg-nav{

@@ -1,9 +1,10 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>aboutClient</title>
+	<title>荣誉客户</title>
   <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/footer.css">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/aboutClient.css">
@@ -19,12 +20,12 @@
     </section>
     <section class="outer-section content2">
       <div class="content-nav">
-          <ul class="row">
-            <li class="col-md-2">运营商</li>
-            <li class="col-md-3">政府/部队/事业单位</li>
-            <li class="col-md-2">高校</li>
-            <li class="col-md-2">企业</li>
-            <li class="col-md-3">其他行业</li>
+          <ul class="row" id="tab">
+            <li class="col-md-2" id="inner0">运营商</li>
+            <li class="col-md-3" id="inner1">政府/部队/事业单位</li>
+            <li class="col-md-2" id="inner2">高校</li>
+            <li class="col-md-2" id="inner3">企业</li>
+            <li class="col-md-3" id="inner4">其他行业</li>
           </ul>
       </div>
       <div class="row content-container">
@@ -74,5 +75,23 @@
   <script src="js/jquery-3.2.1.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
   <script src="js/common.js"></script>
+  <script>
+    // 链接
+    function linkHtml (link) {
+      window.location.href=link
+    }
+    $('#tab').find('#inner0').addClass('tabActive');
+    $('.bottom-table').hide()
+    $('.bottom-table').eq(0).show()
+    var bol = true;
+    var tab = $('#tab').find('li')
+    for (var i = 0; i < tab.length; i++) {
+      tab[i].onclick=function() {
+        $(this).addClass("tabActive").siblings('li').removeClass('tabActive');
+        var index = ($(this).index())
+        $('.bottom-table').eq(index).show().siblings('.bottom-table').hide()
+      }
+    }
+  </script>
 </body>
 </html>

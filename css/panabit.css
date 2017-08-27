@@ -1,6 +1,6 @@
-/*header*/
+﻿/*header*/
 img{
-  width: 100%;
+  
 } 
 .main section ul li {
   list-style: none;
@@ -39,19 +39,19 @@ img{
   background-position: center right;
 }
 .swiper-pagination-bullets .swiper-pagination-bullet {
-  width: 50px;
-  height: 5px;
+  width: 80px;
+  height: 8px;
   border-radius: 0;
   background: #fff;
-  opacity: .9;
+  opacity: .5;
   cursor: pointer;
 }
 .swiper-pagination-bullets .swiper-pagination-bullet-active {
-  width: 50px;
-  height: 5px;
+  width: 80px;
+  height: 8px;
   border-radius: 0;
-  background: #6ba4f3;
-  /*opacity: .2;*/
+  background: #fff;
+  opacity: 1;
 }
 /*banner*/
 .banner-title {
@@ -95,7 +95,7 @@ img{
   /*background: rgba(0,0,0,0.3);*/
 }
 .main .product .product-navbar div:hover{
-  background: #999;
+  background: #4a4a4a;
 }
 
 .main section>div>div p{
@@ -103,7 +103,7 @@ img{
 }
 
 /*case*/
-.main .case {
+/*.main .case {
   padding: 65px 80px;
 }
 
@@ -111,7 +111,7 @@ img{
   text-align: left;
 }
 .main .case li a {
-  color: #333;
+  
 }
 .main .case li a:hover{
   color: #d21229;
@@ -177,7 +177,7 @@ img{
   color: #fff;
   display: inline-block;
   margin: 20px 0;
-}
+}*/
 /*news*/
 
 .main .news {
@@ -197,6 +197,6 @@ img{
 }
 
 .main .news img {
-  width: 50%;
+  float:right;
   vertical-align:middle;
 }
