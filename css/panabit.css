@@ -15,7 +15,8 @@ img{
 .navbar-default{
   background: rgba(0,0,0,0);
 }
-.banner-button>div {
+.banner-button>div>div {
+  padding: 25px;
   cursor: pointer;
 }
 .swiper-slide {
@@ -57,7 +58,7 @@ img{
 .banner-title {
   width: 520px;
   height: 175px;
-  margin: 178px 0 0px 157px;
+  margin-top: 178px;
   position: absolute;
   /*left: 157px;*/
   top: 0px;
@@ -82,11 +83,6 @@ img{
   /*background: url(../img/panabit-content-bg.jpg) 100% 100%;*/
   /*background-size: cover;*/
 }
-.main .product>div>div {
-  padding: 25px;
-  line-height: 120px;
-}
-
 .main .product .product-navbar {
   cursor: pointer;
 }
@@ -199,4 +195,40 @@ img{
 .main .news img {
   float:right;
   vertical-align:middle;
+}
+
+
+.nav-pills>li {
+    border-radius: 4px;
+}
+.nav>li{
+    position: relative;
+    display: block;
+    padding: 0px 10px;
+}
+
+
+.main .case li:hover {
+    color: #d21229;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.nav>li:focus, .nav>li:hover {
+    text-decoration: none;
+}
+.main section {
+    color: #333;
+}
+.nav-pills>li {
+    margin-right: 12px;
+    border-radius: 4px;
+}
+.nav>li {
+    position: relative;
+    display: block;
+    padding: 0px 10px;
+}
+.nav-pills>li.active, .nav-pills>li.active:focus, .nav-pills>li.active:hover {
+  color: #fff;
+  background-color: #ea042b;
 }

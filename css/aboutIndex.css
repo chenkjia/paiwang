@@ -6,7 +6,6 @@
   padding: 116px 185px;
 }
 .content2 div {
-  width: 260px;
   margin: 0 auto;
 }
 .content2 p {
@@ -14,7 +13,7 @@
   /*line-height: 38px;*/
 }
 .content3 .col-md-6 {
-  padding: 100px;
+  padding: 60px;
 }
 .content3 h5 {
   margin: 60px 0 30px;

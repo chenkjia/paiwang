@@ -13,3 +13,6 @@
   color: red !important;
   border-bottom: 1px solid red;
 }
+.main .content-nav{
+  padding: 40px 0!important;
+}
