@@ -247,3 +247,88 @@
     </div>
   </div>
 </div>
+<div class="modal fade" tabindex="-1" role="dialog" id="myModal-buy">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">填写采购信息</h4>
+      </div>
+      <div class="modal-body">
+        <div style="padding:0 15px;">
+            <form method="post">
+                <div class="row">
+                    <div class="col-xs-6 text-left fontsize">
+                        <div class="form-group rg-box">
+                          <div class="input-group">
+                            <div class="input-group-addon">产品</div>
+                            <select class="form-control" name="product" id="product">
+                              <option value="M100">M100</option>
+                              <option value="M200">M200</option>
+                            </select>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 text-left fontsize">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-6 text-left fontsize">
+                        <div class="form-group rg-box">
+                          <div class="input-group">
+                            <div class="input-group-addon">单位</div>
+                            <input type="text" class="form-control" name="company" placeholder="单位 “开具发票的抬头信息”" value="">
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 text-left fontsize">
+                        <div class="form-group rg-box">
+                          <div class="input-group">
+                            <div class="input-group-addon">姓名</div>
+                            <input type="text" class="form-control" name="contact" placeholder="姓名 “如何称呼您”" value="">
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-6 text-left fontsize">
+                        <div class="form-group rg-box">
+                          <div class="input-group">
+                            <div class="input-group-addon">城市</div>
+                            <input type="text" class="form-control" name="city" placeholder="城市 “您在哪个城市”" value="">
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 text-left fontsize">
+                        <div class="form-group rg-box">
+                          <div class="input-group">
+                            <div class="input-group-addon">电话</div>
+                            <input type="text" class="form-control" name="tel" placeholder="电话 “如何联系您”" value="">
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 text-left fontsize">
+                        <div class="form-group rg-box">
+                          <div class="input-group">
+                            <div class="input-group-addon">地址</div>
+                            <input type="text" class="form-control" name="addr" placeholder="地址 “收货的地址”" value="">
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row text-center" style="line-height: 14px; height: 22px;color: #ce4844">
+                    <p></p>
+                </div>
+                <div class="row text-center" style="margin-top: 4px;">
+                    <button type="reset" class="btn btn-default">重置</button>
+                    <button type="submit" class="btn btn-primary btn-pri-top">提交</button>
+                </div>
+            </form>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+<a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button" title="Click to return on the top page" data-toggle="tooltip" data-placement="left"><span class="glyphicon glyphicon-chevron-up"></span></a>

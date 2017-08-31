@@ -139,3 +139,7 @@ nav:nth-child(1) {
 .navbar-index .navbar-brand,.navbar-fixed-top:hover .navbar-brand{
   background-image: url(../img/logo1.png);
 }
+
+.navbar-fixed-top {
+  position: absolute;
+}

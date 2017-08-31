@@ -20,6 +20,9 @@
   font-size: 13px;
   color: #bbb;
 }
+.widget a:hover {
+  color: #bbb;
+}
 .attention span {
   display: inline-block;
   width: 30px;

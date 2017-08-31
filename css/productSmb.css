@@ -55,6 +55,7 @@
   background-color: rgba(255,255,255,0.2)
 }
 .buy-content-buy {
+  cursor: pointer;
   background: url(../img/buy-content-buy.png) no-repeat center center;
 }
 

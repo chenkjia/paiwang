@@ -9,9 +9,6 @@ img{
   color: #333;
 }
 /*将导航栏改成固定在div上面*/
-.navbar-fixed-top {
-  position: absolute;
-}
 .navbar-default{
   background: rgba(0,0,0,0);
 }
