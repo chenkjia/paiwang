@@ -79,11 +79,15 @@ $(document).ready(function(){
     }
   });
   $('#back-to-top').click(function () {
-    $('#back-to-top').tooltip('hide');
     $('body,html').animate({
       scrollTop: 0
     }, 800);
     return false;
   });
-  $('#back-to-top').tooltip('show');
+  $('.navbar-brand,.navbar-right').on('mouseenter',function(){
+    $('.navbar-fixed-top').addClass('navbar-fixed-top-hover');
+  });
+  $('.navbar-fixed-top').on('mouseleave',function(){
+    $('.navbar-fixed-top').removeClass('navbar-fixed-top-hover');
+  });
 });

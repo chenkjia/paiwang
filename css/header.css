@@ -28,7 +28,7 @@ nav:nth-child(1) {
   border-color: rgba(255,255,255,0.2);
   color: #fff;
 }
-.navbar-index .btn-pink, .navbar:hover .btn-pink{
+.navbar-index .btn-pink, .navbar-fixed-top-hover .btn-pink{
   border-color: #fff;
   color: #fff;
 }
@@ -115,19 +115,19 @@ nav:nth-child(1) {
   background-color: #202124;
   transition: all .4s;
 }
-.navbar-fixed-top:hover .bg-nav {
+.navbar-fixed-top.navbar-fixed-top-hover .bg-nav {
   height: 500px;
 }
-.navbar-fixed-top:hover>.container-fluid {
+.navbar-fixed-top.navbar-fixed-top-hover>.container-fluid {
   background: #202124;
   transition: background 0.5s;
 }
 
-.navbar-fixed-top:hover .menu-text-wrap{
+.navbar-fixed-top.navbar-fixed-top-hover .menu-text-wrap{
   opacity: 1;
   height: 400px;
 }
-.navbar-fixed-top:hover .navbar-nav>li>a,.navbar-fixed-top:hover .navbar-nav>li>a:focus{
+.navbar-fixed-top.navbar-fixed-top-hover .navbar-nav>li>a,.navbar-fixed-top.navbar-fixed-top-hover .navbar-nav>li>a:focus{
   color: #fff;
 }
 .navbar-brand{
@@ -136,7 +136,7 @@ nav:nth-child(1) {
   height: 50px;
   background: url(../img/logo.png) no-repeat center center;
 }
-.navbar-index .navbar-brand,.navbar-fixed-top:hover .navbar-brand{
+.navbar-index .navbar-brand,.navbar-fixed-top.navbar-fixed-top-hover .navbar-brand{
   background-image: url(../img/logo1.png);
 }
 
