@@ -176,6 +176,9 @@ img{
 .main .news {
   padding: 70px;
 }
+.main .news a{
+  font-size:16px!important;
+}
 .main .news>div>div>ul li {
   margin: 10px 0;
 }
