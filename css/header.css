@@ -95,6 +95,11 @@ nav:nth-child(1) {
   margin-bottom: 12px;
   min-width: 100px;
   padding-right: 16px;
+  overflow: hidden;
+}
+.menu-text-col li a {
+  display: inline-block;
+  height: 100%;
 }
 .menu-text-item-con {
   padding-top: 20px;
@@ -127,6 +132,22 @@ nav:nth-child(1) {
   opacity: 1;
   height: 400px;
 }
+@media (max-width: 1024px) {
+/*  .navbar-fixed-top.navbar-fixed-top-hover .menu-text-wrap{
+    opacity: 1;
+    height: 800px;
+  }*/
+  .menu-text-col {
+    width: 23.3%;
+    margin-right: 1%;
+  }
+  .text-item-col a {
+    width: 100%; 
+    font-size: 14px;
+  }
+}
+
+
 .navbar-fixed-top.navbar-fixed-top-hover .navbar-nav>li>a,.navbar-fixed-top.navbar-fixed-top-hover .navbar-nav>li>a:focus{
   color: #fff;
 }
