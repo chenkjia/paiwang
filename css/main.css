@@ -145,3 +145,11 @@ section h5,p,li {
   display: inline-block;
   margin: 20px 0;
 }
+
+/*@media screen and (min-width:414px) and (max-width: 760px) {
+  .main .case-content>li{
+    width: 50%;
+    float: left;
+    overflow: hidden;
+  }
+}*/

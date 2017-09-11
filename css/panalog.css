@@ -52,8 +52,9 @@
 }
 .main .content4 {
   padding: 80px 150px;
-  height: 820px;
+  height: 1000px;
   background: url(../img/panalog-bg2.jpg) top center;
+  /*background-position: 0 -100px;*/
   background-size: cover;
 }
 .content4 .content-title{
