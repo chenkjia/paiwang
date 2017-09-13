@@ -22,7 +22,7 @@
 }
 
 .main .content2 {
-  padding: 0 270px;
+  padding: 0 10%;
 }
 
 .main .content2 .content-title, .main .content3 .content-title {
@@ -53,8 +53,11 @@
 .main .content3 .content-title, .main .content3 p{
   color: #fff;
 }
+.main .content3 ul {
+  padding: 10% 0 0 8%;
+}
 
-.main .content3 ul, .main .content4{
+.main .content4{
   padding: 80px 150px;
 }
 .main .content3 ul li{
@@ -69,7 +72,7 @@
   margin: 80px 0;
 }
 .content4 .content4-item-title {
-  padding-left: 24px;
+  /*padding-left: 24px;*/
 }
 .content4 ul .row{
   margin-left: 0;
@@ -106,4 +109,10 @@
 .content4 ul li:nth-child(4) >div{
   height: 150px;
   background:linear-gradient(to right ,#d4aa70, #e9d4b7);
+}
+
+@media only screen and (min-width:768px) and (max-width:1024px) {
+  .content4 .bottom-text-m {
+    margin-top: 1%;
+  }
 }

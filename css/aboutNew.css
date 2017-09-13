@@ -3,7 +3,8 @@
   background-size: cover;
 }
 .main .content2 {
-  padding: 50px 115px 150px 130px;
+  /*padding: 50px 115px 150px 130px;*/
+  padding: 0 0 5% 0;
 }
 .main .content2 li {
   list-style: none;
