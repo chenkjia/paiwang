@@ -71,6 +71,8 @@ $.ajax({
 });
 
 $(document).ready(function(){
+  var u = navigator.userAgent;
+  var isMobile = !!u.match(/Mobile/);
   $(window).scroll(function () {
     if ($(this).scrollTop() > 500) {
       $('#back-to-top').fadeIn();
@@ -90,9 +92,11 @@ $(document).ready(function(){
   $('.navbar-fixed-top').on('mouseleave',function(){
     $('.navbar-fixed-top').removeClass('navbar-fixed-top-hover');
   });
-  $('.navbar-right').on('click',function(event){
+  $('.navbar-brand,.navbar-right').on('click',function(event){
     $('.navbar-fixed-top').addClass('navbar-fixed-top-hover');
-    event.preventDefault();
+    if (isMobile) {
+      event.preventDefault();
+    }
   });
   $('.navbar-fixed-top').tap(function(event){
     $('.navbar-fixed-top').addClass('navbar-fixed-top-hover');
