@@ -76,7 +76,18 @@
 .main .content5 ul li {
   color: #fff;
 }
-
+@media (max-width: 1280px) {
+  .main .content4 {
+    background-size: 153% 100%;
+    background-position: -192px 0px;
+  }
+  .main .content3 div{
+    width: 100%;
+  }
+  .main .content4{
+    height: 800px;
+  }
+}
 @media screen and (min-width:414px) and (max-width: 1150px) {
   .main .content5{
     padding: 60px 150px;
