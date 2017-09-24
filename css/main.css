@@ -1,8 +1,12 @@
-/*main-common*/
+main-common*/
 .outer-section {width:100%; float: left; clear: both;}
 .outer-wrapper {width:100%; max-width: 1440px; margin: 0 auto;}
 .main{
   overflow: hidden;
+}
+.clearRow{
+  margin: 0;
+  padding: 0;
 }
 .content1{
   height: 500px !important;
@@ -72,6 +76,12 @@ section h5,p,li {
 .news .content-title{
 	padding-bottom:18px;
 }
+@media screen and (min-width:414px) and (max-width: 760px) {
+  .case .content-title{
+    margin-bottom: 18px;
+  }
+}
+
 .main .case li a {
 }
 .main .case li a:hover{
@@ -152,4 +162,4 @@ section h5,p,li {
     float: left;
     overflow: hidden;
   }
-}*/
+}

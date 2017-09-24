@@ -18,6 +18,13 @@
 .main .content2 .news-title{
   margin-bottom: 50px;
 }
+.main .content2 .sub-title {
+  font-weight: bold;
+}
+.main .content2 .img-logo-list {
+  display: inline-block;
+  width: 100%;
+}
 /*.enterprise li {
   width: 230px;
   height: 80px;

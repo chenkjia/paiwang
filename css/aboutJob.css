@@ -4,7 +4,8 @@
   color: #fff;
 }
 .main .content2 {
-  padding: 145px 115px 150px 130px;
+  // padding: 145px 115px 150px 130px;
+  padding: 5% 4.5% 5% 4.8%;
 }
 .main .content2 li {
   list-style: none;
