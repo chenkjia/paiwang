@@ -30,12 +30,15 @@
   height: 820px;
   background:#000964 url(../img/product-bg1.jpg) no-repeat;
 }
-.content4 {
-  height: 800px;
-  background: #dcdffd url(../img/product-bg2.jpg) no-repeat;  
-}
-.content3, .content4 {
+.content3{
   background-position: center center;
+}
+.content4 {
+  background: #dcdffd;  
+}
+.content4 img{
+  width: 100%;
+  padding-bottom: 80px;
 }
 .content3 p {
   color: #fff;
@@ -54,20 +57,4 @@
   margin-top: 10px;
   text-align: center;
   color: red;
-}
-.main .client ul {
-  padding: 50px;
-}
-.main .client ul li {
-  text-align: center;
-  margin-bottom: 50px;
-  /*margin: 90px;*/
-}
-.main .client img{
-  width: 185px;
-  height: 65px;
-}
-  .main .client li:nth-child(2) img, .main .client li:nth-child(3) img{
-    width: 100px;
-  height: 65px;
 }

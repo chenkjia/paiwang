@@ -1,4 +1,4 @@
-main-common*/
+/* main-common*/
 .outer-section {width:100%; float: left; clear: both;}
 .outer-wrapper {width:100%; max-width: 1440px; margin: 0 auto;}
 .main{
@@ -67,7 +67,7 @@ section h5,p,li {
 
 /*case*/
 .main .case {
-  padding: 65px 80px;
+  padding-top: 6%;
 }
 
 .main .case .content-title, .news .content-title {
@@ -76,14 +76,23 @@ section h5,p,li {
 .news .content-title{
 	padding-bottom:18px;
 }
+
 @media screen and (min-width:414px) and (max-width: 760px) {
   .case .content-title{
     margin-bottom: 18px;
   }
+  .main .news img {
+    widows: 100%;
+    margin-top: 25%;
+  }
 }
 
-.main .case li a {
-}
+// @media screen and (max-width: 767px){
+//   .main .case {
+//     padding: 0;
+//   }
+// }
+
 .main .case li a:hover{
   color: #d21229;
   text-decoration: underline;
@@ -100,7 +109,7 @@ section h5,p,li {
   padding: 45px 0;
 }
 .main .case-content>li{
-  width: 292px;
+  text-align: center;
   float: left;
   overflow: hidden;
 }
@@ -110,14 +119,21 @@ section h5,p,li {
   transition: all .3s;
   text-decoration: none!important;
 }
-.main .case-content>li .mask{
+
+.main .case-content>li .case-item {
+  display: block;
+  width: 100%;
+  max-width: 274px;
+  position: relative;
+  margin: 0 auto;
+}
+.main .case-content>li .case-item .mask{
   opacity: 0;
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
-  width:273px;
   background-color: rgba(0,0,0,0.4);
   transition: all .3s;
   text-align: center;
@@ -141,7 +157,7 @@ section h5,p,li {
   text-align: center;
 }
 .main .case-content>li img {
-  height: 164px;
+  width: 100%;
 }
 .main .case-content>li img:hover {
   transform: scale(1.02);
@@ -154,6 +170,19 @@ section h5,p,li {
   color: #fff;
   display: inline-block;
   margin: 20px 0;
+}
+.main .case-content>li span {
+  font-size: 14px;
+  line-height: 1.8;
+  padding: 4px 20px;
+  background: #ea042b;
+  color: #fff;
+  display: inline-block;
+  margin: 20px 0;
+}
+.main .client ul li {
+  text-align: center;
+  padding: 20px 0;
 }
 
 /*@media screen and (min-width:414px) and (max-width: 760px) {

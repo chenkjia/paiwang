@@ -132,7 +132,7 @@ nav:nth-child(1) {
   opacity: 1;
   height: 400px;
 }
-@media (max-width: 1024px) {
+@media (max-width: 1280px) {
 /*  .navbar-fixed-top.navbar-fixed-top-hover .menu-text-wrap{
     opacity: 1;
     height: 800px;

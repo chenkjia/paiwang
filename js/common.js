@@ -90,4 +90,11 @@ $(document).ready(function(){
   $('.navbar-fixed-top').on('mouseleave',function(){
     $('.navbar-fixed-top').removeClass('navbar-fixed-top-hover');
   });
+  $('.navbar-right').on('click',function(event){
+    $('.navbar-fixed-top').addClass('navbar-fixed-top-hover');
+    event.preventDefault();
+  });
+  $('.navbar-fixed-top').tap(function(event){
+    $('.navbar-fixed-top').addClass('navbar-fixed-top-hover');
+  });
 });
